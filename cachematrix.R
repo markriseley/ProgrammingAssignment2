@@ -10,7 +10,7 @@ makeCacheMatrix <- function(x = matrix()) {
         
         set <- function(y) {
                 x <<- y
-                s <<- NULL      ## s is the result of the inversion
+                s <<- NULL      ## s stores the result of the inversion
                                 ## and is reset to NULL every time
                                 ## makeCacheMatrix is called
         }
